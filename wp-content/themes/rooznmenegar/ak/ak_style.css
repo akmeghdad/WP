@@ -1,0 +1,965 @@
+/*
+Theme Name: ROZNAMENEGAR
+Author: meghdad@abolfazli.com
+Author URI: https://www.facebook.com/akmeghdad
+
+*/
+
+/* ################################################ Eslah CSS ################################################ */
+html {
+	/*width: 1130px;
+	max-width: 1130px;
+	min-width: 1130px;
+	margin-top:0 !important;*/
+}
+body{
+	  font-family: tahoma !important;
+	  background: #051F02 url(../images/back.jpg);
+}
+a{
+	text-decoration: none;
+}
+
+#page,.site {
+	  width: 1130px;
+  padding: 0;
+  margin: auto;
+  max-width: 1130px;
+    padding-bottom: 15px;
+}
+footer[role="contentinfo"] {
+  padding-top: 5px;
+  text-align: center;
+    font: 13px tahoma;
+      color: #A8A5A5;
+    margin-top: 20px;
+      border: none;
+}
+footer[role="contentinfo"] a {
+  color: #21759b;
+  text-decoration: none;
+}
+
+/* ------ Search Form ------- */
+#ak_home #searchform {
+	/*
+	position: absolute;
+	top: 3.8em;
+	right: 7.6%;
+	text-align: right;
+	*/
+	float: left;
+  margin: -6px 0;
+  margin-bottom: -20px;
+}
+#ak_home #searchform div {
+	margin: 0;
+}
+#ak_home #s {
+	float: right;
+	-webkit-transition-duration: 400ms;
+	-webkit-transition-property: width, background;
+	-webkit-transition-timing-function: ease;
+	-moz-transition-duration: 400ms;
+	-moz-transition-property: width, background;
+	-moz-transition-timing-function: ease;
+	-o-transition-duration: 400ms;
+	-o-transition-property: width, background;
+	-o-transition-timing-function: ease;
+	width: 72px;
+	  height: 10px;
+}
+#ak_home #s:focus {
+	background-color: #f9f9f9;
+	width: 150px;
+}
+#ak_home #searchsubmit, #searchsubmit {
+	display: none;
+}
+#ak_home .only-search #searchform {
+	top: 5px;
+	z-index: 1;
+}
+#ak_home .only-search #s {
+	background-color: #666;
+	border-color: #000;
+	color: #222;
+}
+#ak_home .only-search #s,
+#ak_home .only-search #s:focus {
+	width: 85%;
+}
+#ak_home .only-search #s:focus {
+	background-color: #bbb;
+}
+#ak_home .with-image #searchform {
+	top: auto;
+	bottom: -27px;
+	max-width: 195px;
+}
+#ak_home .only-search + #access div {
+	padding-right: 205px;
+}
+input {
+  border: 3px solid #9DA0B7;
+    font: 14px arial;
+}
+/* ------End Search Form ------- */
+.site-header {
+  border-bottom: 3px solid #023E02;
+   padding: 12px 40px 1px 27px;
+}
+.site-header h2 {
+  text-align: right;
+  font-size: 18px;
+  font-family: "BMitra",B Mitra,arial,tahoma,verdana,sans-serif;
+  color: #545455;
+}
+.site-header img {
+  float: left;
+  margin-bottom: -30px;
+  margin-top: 3px;
+  width: 190px;
+}
+.main-navigation {
+  margin-top: 25px;
+  text-align: center;
+}
+#main{
+	  padding: 0 40px;
+}
+.site-content {
+/*width: 69%;*/
+width: 650px;
+float: right;
+}
+.widget-area {
+/* background: #EDEDED; */
+/* padding: 15px; */
+width: 330px;
+float: left;
+color: #21759b;
+}
+.widget-area .widget a, .widget-area .widget a:visited{
+	  color: #21759b;
+}
+.widget-title {
+  background:  url(../images/wiget.jpg)  no-repeat;
+}
+.widget-area .widget h3 {
+  margin-bottom: 5px;
+  padding-top: 8px;
+  font: bold 23px arial;
+  color: #1F1F1F;
+  padding-right: 80px;
+  height: 37px;
+}
+.wp-caption .wp-caption-text{
+	background-color: #111111;
+  margin: 0 5px;
+  margin-top: -5px;
+  color: #EDEDED;
+  padding: 10px;
+  font-size: 14px;
+  font: 17px arial;
+}
+ol, ul {
+  list-style: none;
+  list-style-type: square;
+  padding-right: 25px;
+}
+/* ----------------------------------------------------  Mega Menu ---------------------------------------------------- */
+#mega-menu-wrap-primary{
+	  margin-top: 10px;
+}
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item {
+  display: block;
+}
+#mega-menu-wrap-primary #mega-menu-primary li.mega-menu-item.mega-toggle-on > ul.mega-sub-menu, #mega-menu-wrap-primary #mega-menu-primary li.mega-menu-item.mega-menu-megamenu.mega-toggle-on ul.mega-sub-menu {
+  width: 887px;
+  margin-left: 190px;
+  margin-top: -40px;
+  margin-right: -890px;
+}
+.widget #mega-menu-wrap-primary #mega-menu-primary {
+  margin-right: 170px;
+}
+#mega-menu-wrap-primary #mega-menu-primary li.mega-menu-item.mega-menu-item-type-custom > ul.mega-sub-menu{
+	width: 100%;
+  margin-right: -190px;
+}
+#mega-menu-wrap-primary #mega-menu-primary li.mega-menu-item.mega-menu-item-type-custom > ul.mega-sub-menu a,
+#mega-menu-wrap-primary #mega-menu-primary li{
+	text-align: right;
+}
+#mega-menu-wrap-primary #mega-menu-primary td a {
+font-weight: bold;
+  color: #3593BD;
+}
+#mega-menu-wrap-primary #mega-menu-primary table, #mega-menu-wrap-primary #mega-menu-primary td, #mega-menu-wrap-primary #mega-menu-primary tr, #mega-menu-wrap-primary #mega-menu-primary th {
+  text-align: center;
+}
+#mega-menu-wrap-primary #mega-menu-primary #today {
+background-color: #FFFFFF;
+  border-radius: 10px;
+}
+#mega-menu-wrap-primary #mega-menu-primary li.mega-menu-item a[class^='dashicons']:before {
+  margin-right: -10px;
+}
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a {
+  text-align: right;
+}
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item {
+  height: 30px;
+}
+.ak_9999_1 ul{
+font-size: 16.5px;
+  /*font-weight: bold;
+  font-family: "BMitra",B Mitra,arial,tahoma,verdana,sans-serif;
+  line-height: 31px;
+  margin-top: 10px;
+  padding: 2px 10px;
+  background-color: #C5DEC0;
+  border: 2px dashed #C5DEC0;*/
+  
+    font-size: 16.5px;
+  font-weight: bold;
+  font-family: "BMitra",B Mitra,arial,tahoma,verdana,sans-serif;
+  margin-top: 10px;
+  padding: 2px 10px;
+  border: 2px dashed #C5DEC0;
+  font: normal 16px tahoma;
+  line-height: 31px;
+    line-height: 2.204285714285714rem;
+}
+#mega-menu-wrap-primary #mega-menu-primary {
+  text-align: right;
+  padding: 0px 0px 0px 0px;
+  border: 1px dashed #C5DEC0;
+  padding-bottom: 10px;
+}
+
+/* ----------------------------------------------------  MIHAN ---------------------------------------------------- */
+.entry-content h2{
+	font-family: arial;
+font-size: 21px;
+margin-bottom: 2px;
+margin-top: 30px;
+clear: none;
+}
+.entry-header .entry-title  a {
+font: bold 30px arial;
+}
+.site-content article {
+border-bottom: 0; 
+margin-bottom: 0; 
+}
+.entry-content {
+text-align: justify;
+}
+.entry-header .entry-title {
+	  font: bold 32px arial;
+	    padding-bottom: 5px;
+}
+.wp-caption img{
+  display: block;
+  margin: 5px auto;
+}
+
+.entry-summary{
+	padding-top: 5px;
+font-family: tahoma;
+}
+.entry-header {
+margin-bottom: 0px;
+}
+.site-content article {
+padding-bottom: 0px;
+}
+.entry-content div .wpcf7-response-output{
+	  margin: 70px 0 0 0;
+}
+.widget a {
+	color: #21759b;
+}
+/*.widget-area .widget a:hover {
+	color: #21759b;
+}
+.widget-area .widget a:visited {
+	color: #21759b;
+}*/
+
+/* ################################################ Asli CSS ################################################*/
+strong {
+	font-weight: bold;
+}
+
+.scrollup {
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	bottom: 50px;
+	right: 100px;
+	display: none;
+	text-indent: -9999px;
+	background: url(../images/top.png) no-repeat;
+}
+.ak-div, .ak_div{
+float: left;
+  width: 270px;
+  padding: 0px 20px 20px 0;
+  text-align: right;
+  font: bold 22px arial;
+  line-height: 30px;
+}
+#ak_home {
+	/*width: 1130px;
+	width: 80.7142857em;*/
+	  padding-top: 15px;
+	    margin: 0 -40px;
+}
+#ak_home a{
+	text-decoration: none;
+  color: inherit;
+}
+#ak_home a:HOVER{
+	color:#3593BD;
+}
+/*#ak_home1 img {
+  height: auto;
+  display: block;
+   width: 100%;
+}*/
+.ak_txt{
+  font-size: 14px;
+  font-family: "BMitra",B Mitra,arial,tahoma,verdana,sans-serif;
+  font-weight: bold;
+  text-align: justify;
+  color: #545455;
+  
+  font: bold 15px "BMitra",B Mitra,arial,tahoma,verdana,sans-serif;
+  line-height: 24px;
+  
+  font: normal 18px "BMitra",B Mitra,arial,tahoma,verdana,sans-serif;
+}
+/* ---------------stoon---right--------------------------------*/
+.ak_right {
+	float: right;
+  width: 190px;
+  margin-right: 25px;
+  padding-left: 15px;
+  border-left: 2px solid #e4e4e4;
+}
+.ak_r_1{
+	 background-color: #E8E8E8;
+}
+.ak_r_1 img{
+  max-width: 90%;
+  max-width: 170px;
+  width: 100%;
+  padding: 5%;
+    height: inherit;
+}
+.ak_r_1 ul{
+  list-style-type: disc;
+    margin-right: 15px;
+      padding: 0 5px;
+   margin-bottom: 15px; /* php =======shayad========= akmeghdad */
+     padding-bottom: 5px; /* php ================ akmeghdad */
+   /*
+   font-size: 19px;
+  font-family: "BMitra",B Mitra,arial,tahoma,verdana,sans-serif;
+  */
+   
+     font-size: 15px;
+  font-family: "BTitr",B Titr,arial,tahoma,verdana,sans-serif;
+  line-height: 20px;
+  
+  /*
+  font-size: 16px;
+  font-family: "BMitra",B Mitra,arial,tahoma,verdana,sans-serif;
+  font-weight: bold;
+  line-height: 19px;
+  */
+}
+.ak_r_1 ul li{
+    padding-bottom: 10px;
+}
+.ak_r_hr_1{
+	border-bottom: 3px solid #51534E;
+}
+.ak_r_hr_2{
+	border-bottom: 2px solid #E4E4E4;
+}
+.ak_r_2{
+	 background-color: #E8E8E8;
+	   margin-bottom: 15px;
+	   margin-top: 12px;
+}
+.ak_r_2 img{
+    max-width: 90%;
+  width: 171px;
+  padding: 5%;
+  height: 98px;
+}
+.ak_r_2 span{
+font-size: 15px;
+  font-family: "BMitra",B Mitra,arial,tahoma,verdana,sans-serif;
+  text-align: center;
+  float: right;
+  width: 100%;
+    color: #979797;
+  margin-top: -3px;
+    padding-bottom: 3px;
+}
+.ak_r_2 p{
+    font-size: 15px;
+  font-family: "BTitr",B Titr,arial,tahoma,verdana,sans-serif;
+     padding: 10px;
+  text-align: center;
+  line-height: 18px;
+}
+.ak_r_3{
+	  margin-top: 12px;
+}
+.ak_r_3 span{
+	font-size: 19px;
+  font-family: "BMitra",B Mitra,arial,tahoma,verdana,sans-serif;
+  text-align: center;
+  float: right;
+  width: 100%;
+  color: #979797;
+      padding-top: 7px;
+  background: url(../images/hr_2.png) no-repeat;
+  height: 30px;
+}
+.ak_r_3_img{
+	width: 65px;
+  height: 65px;
+  overflow: hidden;
+  float: left;
+}
+.ak_r_3 img{
+	  float: left;
+	    height: 65px;
+  width: 114px;
+  margin-left: -25px;
+}
+.ak_r_3 p{
+	color: #545455;
+  padding-bottom: 12px;
+  /*
+font-size: 13px;
+  font-family: "BMitra",B Mitra,arial,tahoma,verdana,sans-serif;
+  font-weight: bold;
+  text-align: justify;
+  line-height: 19px;
+  */
+    font-size: 14px;
+  font-family: "BMitra",B Mitra,arial,tahoma,verdana,sans-serif;
+  font-weight: bold;
+  text-align: justify;
+  line-height: 22px;
+  
+  font: normal 18px "BMitra",B Mitra,arial,tahoma,verdana,sans-serif;
+  line-height: 23px;
+}
+.ak_r_3_titr{
+	  font-size: 18px;
+  font-family: "BMitra",B Mitra,arial,tahoma,verdana,sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #545455;
+    padding-bottom: 12px;
+}
+.ak_r_3_aut{
+	font-size: 13px;
+  font-family: "BMitra",B Mitra,arial,tahoma,verdana,sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #818183;
+	padding-bottom: 10px;
+}
+/* ---------------stoon---centre--------------------------------*/
+.ak_centre {
+  float: right;
+  width: 635px;
+  padding: 0 15px;
+}
+.ak_c_1 span{
+  padding: 6px 0;
+  float: right;
+  font-size: 16px;
+  font-family: "BMitra",B Mitra,arial,tahoma,verdana,sans-serif;
+  border-bottom: 3px solid #51534E;
+  width: 100%;
+}
+.ak_c_1 img{
+	    max-width: 100%;
+  width: 100%;
+}
+.ak_c_2 img{
+	    max-width: 100%;
+  width: 100%;
+}
+.ak_c_2 h1{
+  font-size: 60px;
+    margin-bottom: 0px;
+  font-family: "BTitr",B Titr,arial,tahoma,verdana,sans-serif;
+  padding: 10px 0;
+  text-align: center;
+  color: #000000;
+  letter-spacing: -2px;
+}
+.ak_c_2 h3{
+  font-size: 15px;
+  font-family: "BTitr",B Titr,arial,tahoma,verdana,sans-serif;
+  padding: 10px 0;
+  text-align: center;
+  color: #7e0000;
+}
+.ak_c_2 .ak_txt{
+  border-bottom: 2px solid #E4E4E4;
+  padding-bottom: 10px; 
+}
+.ak_c_2 hr{
+  margin: 0px 65px 10px;
+  height: 2px;
+  color: #E4E4E4;
+}
+.ak_c_3 h1{
+  font-size: 21px;
+  font-family: "BMitra",B Mitra,arial,tahoma,verdana,sans-serif;
+  padding: 10px 0;
+  text-align: center;
+  color: #000000;
+  letter-spacing: -0.03em;
+}
+.ak_c_3 h3{
+  font-size: 17px;
+  font-family: "BMitra",B Mitra,arial,tahoma,verdana,sans-serif;
+  text-align: center;
+  color: #979797;
+  margin: -3px 0 5px;
+}
+.ak_c_3r{
+	  float: right;
+  width: 300px;
+  border-left: 2px solid #E4E4E4;
+  padding-left: 15px;
+}
+.ak_c_3l{
+	  float: left;
+  width: 300px;
+}
+
+/* ---------------stoon---left--------------------------------*/
+.ak_left {
+float: right;
+  width: 190px;
+  padding-right: 15px;
+  margin-left: 25px;
+  border-right: 2px solid #e4e4e4;
+}
+.ak_l_1{
+  border-bottom: 3px solid #51534E;
+  padding-bottom: 15px;
+  padding-bottom: 1.087em;
+}
+.ak_l_1 img{
+	  max-width: 100%;
+  width: 100%;
+}
+.ak_l_1 ul, .ak_l_1 .mega-menu-wrap{
+font-size: 16.5px;
+  /*font-weight: bold;
+  font-family: "BMitra",B Mitra,arial,tahoma,verdana,sans-serif;
+  line-height: 31px;
+  margin-top: 10px;
+  padding: 2px 10px;
+  background-color: #C5DEC0;
+  border: 2px dashed #C5DEC0;*/
+  
+    font-size: 16.5px;
+  font-weight: bold;
+  font-family: "BMitra",B Mitra,arial,tahoma,verdana,sans-serif;
+  margin-top: 10px;
+  padding: 2px 10px;
+  border: 2px dashed #C5DEC0;
+  font: normal 16px tahoma;
+  line-height: 31px;
+    line-height: 2.204285714285714rem;
+}
+
+#ak_home .edit-link {
+  float: left;
+  position: absolute;
+  background: #D9D9D9;
+  color: #F00;
+  padding: 4px;
+  font: initial;
+ /*
+  margin-top: 60px;
+  margin-right: -40px;
+  */
+    width: 40px !important;
+}
+/*------------------ category --------------------------------*/
+.ak_cat{
+	float:right;
+	/*width: 475px;*/
+}
+.ak_cat img{
+	width: 151px;
+    float: right;
+    padding: 0 0 10px 10px;
+}
+.ak_cat p{
+	font-size: 15px;
+	padding-bottom: 30px;
+}
+/* ---------------- baraye jostejoo search -------------------------------- */
+.term-0 { background-color:#FF0 }.term-1 { background-color:#C358FF }.term-2 { background-color:#55FF00 }.term-3 { background-color:#2A55FF }.term-4 { background-color:#FF55FF }.term-5 { background-color:#FFAA00 }.term-6 { background-color:#FF0055 }.term-7 { background-color:#329E56 }.term-8 { background-color:#00FFAA }
+
+
+/* ------------------------------  az Rah omade ------------------------------------ */
+#ak_page {
+	border-bottom: none;
+	padding: 30px 15px;
+	position: relative;
+	width: 660px;
+	float: right;
+}
+
+.ak_trkh_titr {
+	color: #939393;
+	font-family: tahoma;
+	font-size: 11px;
+	margin-top: -5px;
+}
+
+.ak-caption-text {
+	font-family: tahoma !important;
+	color: #525252 !important;
+	padding-right: 0px !important;
+	text-align: center;
+}
+
+.ak-caption-text:before {
+	content: "" !important;
+}
+
+.ak-caption-text-autor {
+	background-color: #E4EAF2;
+	float: left;
+	font-size: 12px;
+	margin: 0 20px 20px 0;
+	padding: 10px;
+	text-align: center;
+	width: 260px;
+}
+
+.ak_mail_newsletter {
+	margin-top: -20px;
+	background: #C7C7C7 !important;
+	border: 2px solid #4D4D4D !important;
+	padding: 6px 5px 5px !important;
+	width: 250px;
+	margin: 5px 0 0 0 !important;
+	/*float: right;*/
+	border-radius: 10px;
+	position: relative;
+	color: #9B9B9B !important;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#ak_send_newsletter {
+	float: right;
+	font-family: arial;
+	background: #8E8E8E;
+	border: 2px solid #4D4D4D;
+	padding: 4px 4px 2px;
+	/*width: 230px;*/
+	margin: 5px 0 0 0;
+	/*float: right;*/
+	border-radius: 10px;
+	position: relative;
+	font-weight: bold;
+	font-size: 14px;
+	color: #494949;
+}
+
+.ak_textarea_us {
+	background: #EBE8FF !important;
+	border: 2px solid #180A79 !important;
+	padding: 6px 5px 5px;
+	margin: 5px 0 0 0;
+	/*float: right;*/
+	border-radius: 10px;
+	position: relative;
+	color: #161616 !important;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: tahoma;
+}
+
+.ak_txt_us {
+	margin-top: -20px;
+	background: #EBE8FF !important;
+	border: 2px solid #180A79 !important;
+	padding: 6px 5px 5px !important;
+	width: 250px;
+	margin: 5px 0 0 0 !important;
+	/*float: right;*/
+	border-radius: 10px;
+	position: relative;
+	color: #161616 !important;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: tahoma;
+}
+
+#ak_send_us {
+	float: right;
+	/*font-family: tahoma;*/
+	background: #2DA6FF;
+	border: 2px solid #010C15;
+	padding: 4px 4px 2px;
+	width: 120px;
+	margin: -10px 0 30px 0;
+	/*float: right;*/
+	border-radius: 10px;
+	position: relative;
+	font-weight: bold;
+	font-size: 18px;
+	color: #161616;
+}
+
+.ak_img_robot_newsletter {
+	color: #aaa;
+}
+
+.ak_txt_robot_newsletter {
+	color: #aaa;
+}
+
+.widget_search {
+	color: #eee;
+	/*padding-bottom: 30px;*/
+}
+
+.widget_search #s {
+	background: url(../images/search.png) no-repeat right 9px !important;
+	/*border: 2px solid #4D4D4D !important;*/
+	padding: 6px 30px 5px !important;
+	width: 200px;
+	margin: 5px 30px 0 0 !important;
+	/*border-radius: 10px;*/
+	color: #737373 !important;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.widget a {
+	font-weight: normal;
+}
+
+.entry-title a {
+	font-weight: normal;
+}
+
+.entry-header span {
+	width: 100%;
+	padding-bottom: 20px;
+	float: right;
+	color: #9FA3A3;
+}
+
+#ak_page_icon {
+	float: left;
+	font-size: 18px;
+	margin-top: 5px;
+	width: 620px;
+	font-weight: bold;
+	font-family: arial;
+	padding-bottom: 30px;
+}
+
+.ak_aut_txt {
+	font: 17px tahoma;
+	padding-bottom: 20px;
+	float: right;
+	padding-left: 10px;
+	/*width: 300px;*/
+	line-height: 28px;
+}
+
+.ak_aut_txt p {
+	margin: 0 0 1.714285714rem;
+	line-height: 1.65;
+}
+
+.ak_author_main {
+	border: 3px solid #0A1C83;
+	border-radius: 10px;
+	height: 240px;
+	margin: 10px 0 30px 10px;
+	background: #051F02 url(../images/back-aut.jpg);
+}
+
+.ak_author_img {
+	float: left;
+	padding: 0px 0 0 10px;
+}
+
+.ak_author_img img {
+	background-color: #E3BF85;
+	border-radius: 10px;
+	width: 220px;
+	height: 220px;
+}
+
+.ak_author_pnom {
+	font-family: arial;
+	font-size: 50px;
+	padding-right: 25px;
+	padding-top: 30px;
+	color: #C0C0C5;
+	font-weight: bold;
+}
+
+.ak_author_nom {
+	/*float: left;*/
+	font-family: arial;
+	font-size: 50px;
+	padding: 10px 40px 0 0;
+	color: #C0C0C5;
+	font-weight: bold;
+}
+
+.ak_alefba {
+	width: 100%;
+	float: right;
+	font-family: arial;
+	font-size: 1.4em;
+	font-weight: bold;
+	border: 1px solid #999999;
+	background-color: #EEF0F3;
+	border-radius: 20px;
+	/*padding-right: 7px;*/
+	margin-bottom: 10px;
+	text-align: center;
+	margin-top: 50px;
+	padding: 5px;
+}
+
+.ak_alefba a {
+	width: 100%;
+	color: #505050;
+}
+
+.ak_alefba font {
+	color: #000000;
+	font-size: 20px;
+	display: none;
+}
+
+.ak_author_all_harf {
+	width: 100%;
+}
+
+.ak_author_all_harf1 {
+	float: right;
+	padding-bottom: 10px;
+	width: 100%;
+}
+
+.ak_author_harf_img {
+	float: right;
+	padding-right: 20px;
+	width: 80px;
+}
+
+.ak_author_harf_img img {
+	border-radius: 10px;
+	width: 70px;
+	height: 70px;
+}
+
+.ak_author_harf_txt {
+	width: 100%;
+}
+
+.ak_author_harf_txt1 {
+	font: 30px arial;
+	padding-top: 10px;
+	width: 100%;
+}
+
+.ak_author_harf_txt1 a {
+	color: #373737;
+}
+
+.ak_author_harf_txt2 {
+	color: #898989;
+	float: right;
+	font-family: tahoma;
+	font-size: 12px;
+	margin-top: -0px;
+}
+
+.ak_author_hrf_3 ul {
+	float: right;
+	font-family: tahoma;
+	font-size: 14px;
+	padding-top: 10px;
+	width: 470px;
+	padding: 10px 30px 10px 0;
+	margin-right: 20px;
+	list-style-type: disc;
+	border-radius: 5px;
+	border: 2px dashed #3B5998;
+	background-color: #F3F3F3;
+	overflow-y: scroll;
+}
+
+.ak_author_hrf_3 ul a {
+	color: #1B8BE1;
+}
+
+#ak_capimg {
+	height: 22px;
+	margin-bottom: -7px;
+}
+
+#ak_captxt {
+	position: relative;
+	height: 17px;
+	top: 0px;
+	direction: ltr;
+	padding: 0 0 4px 0;
+	background: #DDDDDD;
+}
+
+.ak_cap {
+	/* margin: -25px 0 25px 0; */
+	
+}
+
+/* ------------------------------------------------------------------------------------*/
+
+
+@font-face {
+  font-family: 'BMitra';
+  src: url('http://rahedigar.net/wp-content/uploads/fonts/BMitra.eot?#') format('eot'),  /* IE6–8 */
+       url('http://rahedigar.net/wp-content/uploads/fonts/BMitra.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('http://rahedigar.net/wp-content/uploads/fonts/BMitra.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BTitr';
+  src: url('http://rahedigar.net/wp-content/uploads/fonts/BTitrBold.eot?#') format('eot'),  /* IE6–8 */
+       url('http://rahedigar.net/wp-content/uploads/fonts/BTitrBold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('http://rahedigar.net/wp-content/uploads/fonts/BTitrBold.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}

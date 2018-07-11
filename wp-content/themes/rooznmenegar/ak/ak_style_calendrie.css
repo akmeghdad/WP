@@ -1,0 +1,222 @@
+/*
+Theme Name: Rahedigar
+*/
+/*
+taghirat baraye RAHEDIGAR.NET calendrie.
+*/
+
+
+
+.ak_cal_main th {
+        width: 29px;
+    font-size: 17px;
+	
+	/*background-color: #E7E7E7;
+	border: 1px solid #C0C0C0 ; 
+	border-radius: 5px;
+	background-color: #FDD756;*/
+	
+	font-weight: normal;
+	text-align: center;
+   /* width: 40px;*/
+    font-size: 18px;
+}
+
+.ak_cal_main td{
+	font-weight: normal;
+	text-align: center;
+    width: 29px;
+    font-size: 17px;
+	
+	/*background-color: #E7E7E7;*/
+	border: 1px solid #C0C0C0 ; 
+	border-radius: 5px;
+	background-color: #FDD756;
+}
+
+.ak_cal_main td a{
+	color: #21759b;
+	font-weight: bold;
+	border: 2px solid #21759b;
+border-radius: 5px;
+padding: 2px;
+}
+
+.ak_cal_back_main{
+	
+	background-color: #FEEEBD;
+	border-radius: 5px;
+	float: right;
+	padding: 10px;
+	width: 320px;
+	border-radius: 5px;
+	border: 2px solid #FCCAC0!important;
+}
+
+.ak_cal_main caption{
+	text-align: center;
+	background: #AEA79C /*url(../images/akb.1png) repeat-x*/;
+	border-radius: 5px;
+	border: 2px solid #6F6A5F!important;
+	height: 40px;
+	font-size: 20px;
+}
+
+
+
+table {
+border-collapse: separate;
+border-spacing: 5px;
+}
+
+
+.ak_cal_main .ak_pad, .ak_cal_main .ak_pad:hover{
+	border: 0px solid #4D4D4D ;
+	background-color: #FEEEBD;
+}
+
+/* ----------------------------------------cal other --------------------------------------------*/
+
+.ak_cal_main{
+	padding-right: 20px;
+	font-family: tahoma,arial;
+}
+.ak_cal_txt{
+font: 17px tahoma;
+padding-bottom: 20px;
+float: right;
+padding-left: 10px;
+width: 300px;
+line-height: 28px;
+}
+.ak_cal_txt p{
+margin: 0 0 1.714285714rem;
+line-height: 1.65;
+}
+/*
+#ak_page_icon{
+	width: 100%;
+font: 30px arial bold;
+padding-bottom: 5px;
+}	
+*/
+.ak_cal_other {
+	/*font-weight: normal;
+	text-align: center;
+    width: 40px;
+    font-size: 18px;*/
+    font-family: tahoma,arial;
+}
+
+.ak_cal_other th {
+	font-weight: normal;
+	text-align: center;
+   /* width: 40px;*/
+    font-size: 18px;
+    font-family: arial;
+}
+
+.ak_cal_other td{
+	font-weight: normal;
+	text-align: center;
+   width: 22px;
+font-size: 17px;
+line-height: 22px;
+}
+
+.ak_cal_css a{
+	font-weight: bold;
+}
+
+.ak_cal_sa a{
+	font-weight: normal;
+}
+
+.ak_cal_other_1 caption{
+	text-align: center;
+	background: #CFFBC2 url(../images/cal_other_1.1jpg) repeat-x;
+	/*border-radius: 5px;*/
+	/*border: 2px solid #B9822B !important;
+	height: 20px;*/
+	font-size: 15px;
+}
+
+.ak_cal_other_2 caption{
+	text-align: center;
+	background: #F9C5C2 url(../images/cal_other_2.1jpg) repeat-x;
+	/*border-radius: 5px;
+	border: 2px solid #B9822B !important;
+	height: 20px;*/
+	font-size: 15px;
+}
+
+.ak_cal_other_3 caption{
+	text-align: center;
+	background: #F8EEA9 url(../images/cal_other_3.1jpg) repeat-x;
+	/*border-radius: 5px;
+	border: 2px solid #B9822B !important;
+	height: 20px;*/
+	font-size: 15px;
+}
+
+.ak_cal_other_4 caption{
+	text-align: center;
+	background: #D8F5FF url(../images/cal_other_4.1jpg) repeat-x;
+	/*border-radius: 5px;
+	border: 2px solid #B9822B !important;
+	height: 20px;*/
+	font-size: 15px;
+}
+
+.ak_cal_other td:hover{
+	font-weight: normal;
+	text-align: center;
+    width: 22px;
+    font-size: 17px;
+	border-radius: 5px;
+	background-color: #FDD756;
+}
+
+.ak_cal_other td a{
+	outline: none;
+color: #21759b;
+font-weight: bold;
+border: 2px solid #B9822B;
+border-radius: 5px;
+margin: -2px;
+}
+
+.ak_cal_other .ak_pad, .ak_cal_other .ak_pad:hover{
+	border: 0px solid #4D4D4D ;
+	background-color: #fff;
+}
+
+#ak_today{
+	border: 1px solid #B9822B;
+	background-color: #E3BF85;
+	border-radius: 5px;
+}
+
+#ak_today:hover{
+	border: 1px solid #FBDD83;
+	background-color: #FEFE7E;
+	border-radius: 5px;
+}
+
+
+#wp-calendar th, #wp-calendar td, #wp-calendar caption{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
